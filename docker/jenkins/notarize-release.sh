@@ -48,8 +48,9 @@ echo "Submitting notarization request using account $APPLE_ID..."
 xcrun notarytool submit --wait \
     --apple-id $APPLE_ID \
     --password "@env:APPLE_ID_PASSWORD" \
-    $1 \
-    --progress
+    --team-id FYF2F5GFX4 \
+    --progress \
+    $1
 
 # Check result
 if [ $? -eq 0 ]; then
