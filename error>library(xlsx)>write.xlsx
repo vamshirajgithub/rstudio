@@ -1,0 +1,8 @@
+Error: package or namespace load failed for ‘xlsx’:
+ .onLoad failed in loadNamespace() for 'rJava', details:
+  call: fun(libname, pkgname)
+  error: JAVA_HOME cannot be determined from the Registry
+In addition: Warning message:
+package ‘xlsx’ was built under R version 4.3.1 
+
+Im facing trouble using library(xlsx) in Rstudio version 4.30. When I run the code, im continously getting the above error when i run in Windows7 or Windows10?? Please help me.
